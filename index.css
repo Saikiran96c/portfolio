@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ .navbar-brand img{
+     height: 50px;
+     width: 70px;
+ }
+
+  .max-width{  
+     max-width: 1300px;
+     padding: 0 80px;
+     margin: auto;
+ }
+
+ section{
+     padding: 100px 0;
+ }
+ .home{
+     display: flex;
+     background: url("img/IMG20201006144703.jpg") no-repeat center;
+     background-size: cover;
+     min-height: 500px;
+ }
+
+ .home .home-content .text-1{
+     font-size: 30px;
+     color: azure;
+ }
+
+ .home .home-content .text-2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -4px;
+    color: beige;
+}
+.home .home-content .text-3{
+    font-size: 45px;
+    margin: 5px 0;
+}
+ .home-content span{
+     color:crimson;
+     font-weight: 500;
+ }
+
+ .about .about-content .left img{
+     height: 400px;
+     width: 400px;
+     object-fit: cover;
+     border-radius: 15px;
+
+ }
+ 
+
+ .about .about-content {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ 
+ 
+.about .about-content .right .text,
+.contact .contact-content .left .text
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right  p,
+.contact .contact-content .left p{
+    text-align: justify;
+}
+
+
+ section .title
+  {
+     position: relative;
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 60px;
+     padding-bottom: 20px;
+ }
+ section .title::before{
+     position: absolute;
+     content: "";
+     height: 3px;
+     width: 180px;
+     background-color: red;
+     bottom: 0px;
+     left: 50%;
+     transform: translateX(-50%);
+
+ }
+ 
+ .about .title::after{
+    position: absolute;
+    content: "Who I am";
+    color: blanchedalmond;
+    background-color:black;
+    bottom: -10px;
+    left: 50%; 
+    padding: 5px;;
+    transform: translateX(-50%);
+    font-size: 15px;
+
+}
+
+.skills .title::after{
+    position: absolute;
+    content: "What I know";
+    color: blanchedalmond;
+    background-color:black;
+    bottom: -10px;
+    left: 50%; 
+    padding: 5px;;
+    transform: translateX(-50%);
+    font-size: 15px;
+
+}
+
+.skills .skills-content,
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.skills .skills-content .left  p{
+    text-align: justify;
+}
+
+.skills .skills-content .column,
+.contact .contact-content .column{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.skills .skills-content .left  .text,
+.contact .contact-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .right  .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right  .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right  span{
+   font-size: 18px;
+   font-weight: 500;
+}
+ 
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+
+}
+.contact .contact-content .row .info .head{
+    font-weight: 500;
+
+}
+.contact .contact-content .row. .info .subtitle{
+    color: #333;
+
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .title::after{
+    position: absolute;
+    content: "Get in touch";
+    color: blanchedalmond;
+    background-color:black;
+    bottom: -10px;
+    left: 50%;
+    padding: 5px;;
+    transform: translateX(-50%);
+    font-size: 15px;
+
+}
+
+
+.contact  .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+}
+.contact  .right form .field .input{
+
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 15px;
+}
+.contact .right form .textarea textarea{
+    height: 75px;
+    width: 100%;
+    resize: none;
+}
+.contact. .right form .textarea{
+    height: 80px;
+}
+.contact. .right form .name{
+   margin-right: 10px;
+}
+.contact. .right form .email{
+    margin-left: 20px;
+ }
+ 
+ .contact .right form button{
+     margin-top: 50px;
+ }
+
+ footer{
+     text-align: center;
+     background: black;
+     padding: 23px 23px;
+     color: blanchedalmond;
+ }
+ footer span a{
+     color: crimson;
+ }
